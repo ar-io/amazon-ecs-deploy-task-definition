@@ -4,9 +4,9 @@
   "description": "Registers an Amazon ECS task definition and deploys it to an ECS service.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **.js",
-    "package": "ncc build index.js -o dist",
-    "test": "eslint **.js && jest --coverage"
+    "lint": "eslint **.cjs",
+    "package": "ncc build index.cjs -o dist",
+    "test": "eslint **.cjs && jest --coverage"
   },
   "repository": {
     "type": "git",
